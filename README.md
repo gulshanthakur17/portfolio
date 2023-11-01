@@ -17,7 +17,7 @@ This website serves as my portfolio to showcase my skills, projects, and experie
 
 - React.js
 - Vite (A build tool for faster development)
-- SCSS animations (Describe any specific animations or libraries used)
+- SCSS animations
 
 
 # React + Vite
