@@ -1,6 +1,6 @@
 # Portfolio
 
-This is my personal portfolio website built with React, Vite, Framer Motion and CSS including animations.
+This is my personal portfolio website built with React, Vite, Framer Motion and SCSS including animations.
 
 ## About
 
@@ -17,7 +17,7 @@ This website serves as my portfolio to showcase my skills, projects, and experie
 
 - React.js
 - Vite (A build tool for faster development)
-- CSS animations (Describe any specific animations or libraries used)
+- SCSS animations (Describe any specific animations or libraries used)
 
 
 # React + Vite
