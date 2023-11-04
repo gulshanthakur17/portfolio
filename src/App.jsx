@@ -5,6 +5,7 @@ import Cursor from "./components/cursor/Cursor";
 import Home from "./components/homepage/Home";
 import Navbar from "./components/navbar/Navbar";
 import Project from "./components/projects/Project";
+import Skill from "./components/skills/Skill";
 
 const App = () => {
   return (
@@ -18,7 +19,10 @@ const App = () => {
 
       <section id="About">
         <About type="about"/>
-        <Project/>
+      </section>
+
+      <section>
+        <Skill/>
       </section>
 
       {/* Skills & project Des. */}
