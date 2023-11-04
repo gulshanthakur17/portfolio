@@ -63,7 +63,11 @@ const Home = () => {
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me!</motion.button>
+
+            <a href="/avatar.svg" download="avatar.svg">
+            <motion.button variants={textVariants}>My Resume</motion.button>
+            </a>
+
           </motion.div>
           <motion.img
             variants={textVariants}
