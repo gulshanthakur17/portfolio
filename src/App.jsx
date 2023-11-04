@@ -21,11 +21,10 @@ const App = () => {
         <About type="about"/>
       </section>
 
-      <section>
+      <section id="Skills">
         <Skill/>
       </section>
 
-      {/* Skills & project Des. */}
       <Project/>
 
       <section id="Contact">
