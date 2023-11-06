@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "sass": "^1.69.5",
+    "typewriter-effect": "^2.21.0",
     "uninstall": "^0.0.0"
   },
   "devDependencies": {
