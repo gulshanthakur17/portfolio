@@ -1,0 +1,67 @@
+@import "../../../app.scss";
+
+.skill-section {
+  background-color: #0c0c1d;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between; 
+
+  .left-skills,
+  .right-skills {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  
+
+  .skill-category {
+    width: 100%;
+    background-color: #111132;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+
+      li {
+        font-size: 40px;
+        margin-bottom: 5px;
+
+        svg {
+          font-size: 44px;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  @include mobile {
+    .skill-category {
+      padding: 30px;
+      h3 {
+        font-size: 20px;
+      }
+      ul {
+        li {
+          font-size: 20px;
+          svg {
+            font-size: 34px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
